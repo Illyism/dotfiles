@@ -1,0 +1,95 @@
+! Xresource file
+
+URxvt*depth: 24
+URxvt*geometry: 100x25
+URxvt.borderColor: #111113
+URxvt.internalBorder: 8
+!URxvt.cursorUnderline: true
+!URxvt.cursorBlink: true
+
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+
+! -- scrollbar
+URxvt.scrollstyle: plain
+URxvt.scrollBar: false
+URxvt*scrollTtyOuput: false
+URxvt*scrollWidthBuffer: true
+URxvt*scrollTtyKeypress: true
+
+! -- login shell
+URxvt*loginShell: false
+
+! -- font
+!URxvt.font: xft:Terminus:size=12
+URxvt.font: xft:Droid Sans Mono:size=10
+!URxvt.font: xft:Ubuntu Mono:size=12
+!URxvt.font: xft:PragmataPro:size=10
+!URxvt.font: xft:Inconsolata:size=10
+!URxvt*font: xft:DejaVu Sans Mono:size=10
+!URxvt.font: xft:berry:pixelsize=12
+!URxvt.font: xft:tewi-8
+!URxvt.font: xft:tamsyn:size=8
+!URxvt.font: xft:cure-8
+URxvt*letterSpace: -1
+!URxvt*lineSpace: 2
+
+! -- perl
+URxvt.perl-ext-common: default,clipboard,vtwheel,matcher
+URxvt.keysym.Mod4-v: perl:clipboard:paste
+URxvt.url-launcher: /usr/local/bin/firefox
+URxvt.matcher.button: 1
+!URxvt.colorUL: #9472ec
+
+! -- tabs
+!lURxvt.tabbed.tabbar-fg: 8
+!lURxvt.tabbed.tabbar-bg: 0
+!lURxvt.tabbed.tab-fg: 15
+!lURxvt.tabbed.tab-bg: 0
+
+!URxvt*.transparent: true
+!URxvt*.shading: 30
+
+! made w/ http://terminal.sexy/
+! special
+! special
+*.foreground:   #d9d8d8
+*.background:   #17181A
+*.cursorColor:  #d9d8d8
+
+! black
+*.color0:       #17181A
+*.color8:       #737171
+
+! red
+*.color1:       #ee2e24
+*.color9:       #ee2e24
+
+! green
+*.color2:       #00853e
+*.color10:      #00853e
+
+! yellow
+*.color3:       #ffd204
+*.color11:      #ffd204
+
+! blue
+*.color4:       #009ddc
+*.color12:      #009ddc
+
+! magenta
+*.color5:       #98005d
+*.color13:      #98005d
+
+! cyan
+*.color6:       #85cebc
+*.color14:      #85cebc
+
+! white
+*.color7:       #d9d8d8
+*.color15:      #ffffff

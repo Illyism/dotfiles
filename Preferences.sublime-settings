@@ -1,0 +1,13 @@
+{
+	"color_scheme": "Packages/Theme - Freesia/Triplet.tmTheme",
+	"default_encoding": "utf-8",
+	"font_face": "Droid Sans Mono",
+	"font_size": 10,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"tab_size": 2,
+	"theme": "Void.sublime-theme",
+	"translate_tabs_to_spaces": false
+}
