@@ -24,7 +24,7 @@ lyrics_directory = ~/.lyrics
 #
 ##### connection settings #####
 #
-mpd_host = localhost
+mpd_host = 192.168.1.11
 #
 mpd_port = 6600
 #
@@ -32,7 +32,7 @@ mpd_port = 6600
 #
 ## Needed for tag editor and file operations to work.
 ##
-mpd_music_dir = ~/.config/mpd/music
+# mpd_music_dir = /mnt/mpd/music
 #
 mpd_crossfade_time = 5
 #
@@ -52,7 +52,7 @@ mpd_crossfade_time = 5
 ## }
 ##
 #
-visualizer_fifo_path = ~/.config/mpd/mpd.fifo
+# visualizer_fifo_path = /mnt/mpd/mpd.fifo
 #
 ##
 ## Note: Below parameter is needed for ncmpcpp
@@ -62,12 +62,12 @@ visualizer_fifo_path = ~/.config/mpd/mpd.fifo
 ## are some problems with it.
 ##
 #
-visualizer_output_name = my_fifo
+# visualizer_output_name = my_fifo
 #
 ##
 ## If you set format to 44100:16:2, make it 'yes'.
 ##
-visualizer_in_stereo = yes
+# visualizer_in_stereo = yes
 #
 ##
 ## Multiply received samples by given value. Very
@@ -83,7 +83,7 @@ visualizer_in_stereo = yes
 ## Keep in mind that sane values start with >=10.
 ##
 #
-visualizer_sync_interval = 30
+# visualizer_sync_interval = 30
 #
 ##
 ## Note: To enable spectrum frequency visualization
@@ -92,9 +92,9 @@ visualizer_sync_interval = 30
 #
 ## Available values: spectrum, wave.
 ##
-visualizer_type = spectrum
+# visualizer_type = spectrum
 
-visualizer_look = "●▮"
+# visualizer_look = "●▮"
 #
 ##### system encoding #####
 ##
@@ -196,7 +196,7 @@ song_status_format = {$8%t}{$8 "%b"}|{$8 "%a"}$8
 #browser_sort_mode = name
 #
 #browser_sort_format = {%a - }{%t}|{%f} {(%l)}
-#m
+#
 ##
 ## Note: Below variables are for alternative version of user's interface.
 ## Their syntax supports all tags and colors listed above plus some extra
